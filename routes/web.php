@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PartidasPresupuestalesController;
 
+use function Laravel\Prompts\clear;
 
 Route::get('/', function () {
     return view('layouts.app2');
@@ -28,6 +29,5 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-
 
 

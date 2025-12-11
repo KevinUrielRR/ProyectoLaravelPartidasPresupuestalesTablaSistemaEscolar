@@ -20,6 +20,7 @@ protected $keyType = 'string';
 public $timestamps = false;
 
 public $autoincrement = false;
+public $incrementing = false;
 
 protected $fillable = [
 'partida',
